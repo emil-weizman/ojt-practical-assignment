@@ -1,0 +1,81 @@
+.modal_container_edit_post.modal_container {
+  min-width: 1000px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .modal_container_edit_post.modal_container {
+    min-width: 100vw;
+  }
+}
+
+.modal_container_edit_post.modal_container .modal_body {
+  flex-direction: row;
+  gap: 30px;
+}
+
+.modal_container_edit_post .left_side {
+  flex: 6;
+  position: relative;
+}
+
+.modal_container_edit_post .right_side {
+  flex: 4;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.modal_container_edit_post .comments_container {
+  height: 200px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding-right: 15px;
+}
+
+.modal_container_edit_post .right_side .comments_container .post_date_ago {
+  font-size: 30px;
+  color: grey;
+}
+
+.modal_container_edit_post .right_side .comments_container .comments_timestamp {
+  font-size: 9px;
+  color: grey;
+}
+
+.modal_container_edit_post .right_side .comments_container .text_wrap {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.modal_container_edit_post .right_side .comments_container .icons_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal_container_edit_post.modal_container .card_avatar {
+  margin-right: 10px;
+}
+
+.modal_container_edit_post.modal_container form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comment_button {
+  min-width: 40px;
+  height: 35px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}

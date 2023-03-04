@@ -1,0 +1,41 @@
+.user_avatar {
+  width: 45px;
+}
+
+.logout-dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.logout-button {
+  background-color: #4caf50; /* Green */
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  padding: 10px 15px;
+  display: none;
+  position: absolute;
+  right: 0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  z-index: 1;
+}
+
+.dropdown-item {
+  background-color: lightcoral;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.logout-dropdown .dropdown-menu {
+  display: block;
+}

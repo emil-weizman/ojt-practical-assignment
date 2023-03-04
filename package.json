@@ -1,0 +1,14 @@
+{
+    "name": "ojt-practical-assignment",
+    "version": "1.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start_server": "cd server && node index.js",
+        "start_client": "cd client && npm start",
+        "setup": "cd server && npm i && cd ../client && npm i && cd ..",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+}

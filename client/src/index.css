@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: #f0f2f5;
+}
+
+:root {
+  --ojt_green: #4caf50;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+button {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.flexHCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.ojt_input {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  flex: 1;
+}
+
+.ojt_grey {
+  background-color: #f0f0f0;
+}
+
+.ojt_like_dislike_container {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+  min-height: 25px;
+}
+.ojt_edit_delete_icons {
+  display: flex;
+  gap: 15px;
+  margin-right: 10px;
+}
+
+.card_avatar {
+  width: 45px;
+  height: 45px;
+  border-radius: 20px;
+}
+
+.image_container {
+  position: relative;
+  aspect-ratio: 4/3;
+}
+
+.image_container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.mb_md {
+  margin-bottom: 10px;
+}
+
+.mb_sm {
+  margin-bottom: 5px;
+}
+
+.mr {
+  margin-right: 20px;
+}
+
+.al_it_center {
+  align-items: center;
+}
+
+.ojt_time_ago {
+  font-size: 10px;
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.card_title {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-weight: 600;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Modal */
+
+.reaction {
+  display: flex;
+  gap: 10px;
+  min-width: 45px;
+  align-items: center;
+}
+
+.modal_overlay {
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(244, 242, 242, 0.9);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal_container {
+  max-width: 500px;
+  min-width: 300px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 25px;
+}
+
+.modal_nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal_nav button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal_container .modal_body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal_container .modal_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg.ojt_icon {
+  cursor: pointer;
+  color: #5a5a5a;
+}
+
+svg.ojt_icon:hover {
+  color: black;
+}
+
+/* buttons */
+
+.my_button {
+  min-width: 120px;
+  height: 35px;
+  border: none;
+  background-color: var(--ojt_green);
+  color: white;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#red_button {
+  background-color: crimson;
+}

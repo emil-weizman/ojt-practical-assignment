@@ -1,0 +1,17 @@
+.confirm_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 250px;
+}
+
+.confirm_container .confirm_title {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+.confirm_container .confirm_buttons {
+  display: flex;
+  gap: 15px;
+}

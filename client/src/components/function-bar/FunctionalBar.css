@@ -1,0 +1,26 @@
+.func_bar {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1060px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+.func_bar_box1 {
+  margin-left: 20px;
+}
+.func_bar_box2 {
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .func_bar {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+}
